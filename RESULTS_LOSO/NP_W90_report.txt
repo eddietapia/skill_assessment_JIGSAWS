@@ -1,0 +1,20 @@
+TASK NAME:NP	 TRAINING MODE:LOSO	
+SLILDING WINDOW:90
+
+METRICS:
+             f1-score  precision  recall  support
+ Expert          0.89       0.86    0.92   1080.0
+ Novice          0.99       0.99    0.99   3816.0
+Interm.          0.88       0.91    0.86   1018.0
+avg / total      0.95       0.95    0.95   5914.0
+
+CONFUSION MATRIX:
+      0    1    2
+0  3767   13   36
+1    11  877  130
+2    10   79  991
+
+TESTING AVG RUNNING TIME:0.371680
+
+TESTING AVG ACCURACY:0.954856)
+

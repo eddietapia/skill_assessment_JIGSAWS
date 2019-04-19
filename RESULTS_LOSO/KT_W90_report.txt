@@ -1,0 +1,20 @@
+TASK NAME:KT	 TRAINING MODE:LOSO	
+SLILDING WINDOW:90
+
+METRICS:
+             f1-score  precision  recall  support
+ Expert          0.86       0.84    0.87    368.0
+ Novice          0.95       0.95    0.95   2376.0
+Interm.          0.86       0.87    0.85   1210.0
+avg / total      0.91       0.91    0.91   3954.0
+
+CONFUSION MATRIX:
+      0     1    2
+0  2269   107    0
+1   124  1025   61
+2     0    47  321
+
+TESTING AVG RUNNING TIME:0.237131
+
+TESTING AVG ACCURACY:0.916579)
+

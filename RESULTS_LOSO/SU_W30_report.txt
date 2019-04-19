@@ -1,0 +1,20 @@
+TASK NAME:SU	 TRAINING MODE:LOSO	
+SLILDING WINDOW:30
+
+METRICS:
+             f1-score  precision  recall  support
+ Expert          0.82       0.73    0.92    788.0
+ Novice          0.92       0.95    0.89   4492.0
+Interm.          0.88       0.88    0.89   3434.0
+avg / total      0.90       0.90    0.90   8714.0
+
+CONFUSION MATRIX:
+      0     1    2
+0  4014   403   75
+1   183  3061  190
+2    30    33  725
+
+TESTING AVG RUNNING TIME:0.152412
+
+TESTING AVG ACCURACY:0.909070)
+
